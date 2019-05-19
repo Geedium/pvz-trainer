@@ -25,7 +25,7 @@ SOFTWARE.
 ```
 Last Verified: **2019-05-19**
 
-<img align="right" width="100" height="100" src="img/logo.png">
+<img style="cursor: default;" align="right" width="100" height="100" src="img/logo.png">
 
 ### Features
 - [x] Unlimited Sunflowers
