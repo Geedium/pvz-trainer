@@ -52,12 +52,12 @@ int main()
 	std::cout << "-- Trainer --" << std::endl;
 	std::cout << "Process: popcapgame1.exe" << std::endl;
 	std::cout << "Operations: " << std::endl;
-	std::cout << " - 1 - Override Sun Flower Amount" << std::endl;
-	std::cout << " - 2 - Override Coins Amount" << std::endl;
-	std::cout << " - 3 - Toggle Delay" << std::endl;
-	std::cout << " - 4 - Set Tree New Height" << std::endl;
-	std::cout << " - 5 - God Mode" << std::endl;
-	std::cout << " - 6 - Tree Cheats" << std::endl;
+	std::cout << "1 - Override Sun Flower Amount" << std::endl;
+	std::cout << "2 - Override Coins Amount" << std::endl;
+	std::cout << "3 - Toggle Delay" << std::endl;
+	std::cout << "4 - Set Tree New Height" << std::endl;
+	std::cout << "5 - God Mode" << std::endl;
+	std::cout << "6 - Tree of Wisdom Codes" << std::endl;
 	std::cout << std::endl;
 
 	data.pBase = g_Debugger->Read<DWORD>(g_Module->dwBase + offsets.dwBase);
@@ -119,9 +119,12 @@ int main()
 				break;
 			case 6:
 				std::cout << "[Selector]" << std::endl;
-				std::cout << "- 1 - Daisies" << std::endl;
-				std::cout << "- 2 - Dance" << std::endl;
-				std::cout << "- 3 - Pinata" << std::endl;
+				std::cout << "1 - Daisies" << std::endl;
+				std::cout << "2 - Dance" << std::endl;
+				std::cout << "3 - Pinata" << std::endl;
+				std::cout << "4 - Future" << std::endl;
+				std::cout << "5 - Mustache" << std::endl;
+				std::cout << "6 - Trickedout" << std::endl;
 				std::cin >> iv;
 				std::cout << std::endl;
 
@@ -171,6 +174,36 @@ int main()
 						keybd_event(0x41, 0x45, KEYEVENTF_EXTENDEDKEY | 0, 0); Sleep(2); // A
 						keybd_event(0x54, 0x45, KEYEVENTF_EXTENDEDKEY | 0, 0); Sleep(2); // T
 						keybd_event(0x41, 0x45, KEYEVENTF_EXTENDEDKEY | 0, 0); Sleep(2); // A
+						break;
+					case 4:
+						keybd_event(0x46, 0x45, KEYEVENTF_EXTENDEDKEY | 0, 0); Sleep(2); // F
+						keybd_event(0x55, 0x45, KEYEVENTF_EXTENDEDKEY | 0, 0); Sleep(2); // U
+						keybd_event(0x54, 0x45, KEYEVENTF_EXTENDEDKEY | 0, 0); Sleep(2); // T
+						keybd_event(0x55, 0x45, KEYEVENTF_EXTENDEDKEY | 0, 0); Sleep(2); // U
+						keybd_event(0x52, 0x45, KEYEVENTF_EXTENDEDKEY | 0, 0); Sleep(2); // R
+						keybd_event(0x45, 0x45, KEYEVENTF_EXTENDEDKEY | 0, 0); Sleep(2); // E
+						break;
+					case 5:
+						keybd_event(0x4D, 0x45, KEYEVENTF_EXTENDEDKEY | 0, 0); Sleep(2); // M
+						keybd_event(0x55, 0x45, KEYEVENTF_EXTENDEDKEY | 0, 0); Sleep(2); // U
+						keybd_event(0x53, 0x45, KEYEVENTF_EXTENDEDKEY | 0, 0); Sleep(2); // S
+						keybd_event(0x54, 0x45, KEYEVENTF_EXTENDEDKEY | 0, 0); Sleep(2); // T
+						keybd_event(0x41, 0x45, KEYEVENTF_EXTENDEDKEY | 0, 0); Sleep(2); // A
+						keybd_event(0x43, 0x45, KEYEVENTF_EXTENDEDKEY | 0, 0); Sleep(2); // C
+						keybd_event(0x48, 0x45, KEYEVENTF_EXTENDEDKEY | 0, 0); Sleep(2); // H
+						keybd_event(0x45, 0x45, KEYEVENTF_EXTENDEDKEY | 0, 0); Sleep(2); // E
+						break;
+					case 6:
+						keybd_event(0x54, 0x45, KEYEVENTF_EXTENDEDKEY | 0, 0); Sleep(2); // T
+						keybd_event(0x52, 0x45, KEYEVENTF_EXTENDEDKEY | 0, 0); Sleep(2); // R
+						keybd_event(0x49, 0x45, KEYEVENTF_EXTENDEDKEY | 0, 0); Sleep(2); // I
+						keybd_event(0x43, 0x45, KEYEVENTF_EXTENDEDKEY | 0, 0); Sleep(2); // C
+						keybd_event(0x4B, 0x45, KEYEVENTF_EXTENDEDKEY | 0, 0); Sleep(2); // K
+						keybd_event(0x45, 0x45, KEYEVENTF_EXTENDEDKEY | 0, 0); Sleep(2); // E
+						keybd_event(0x44, 0x45, KEYEVENTF_EXTENDEDKEY | 0, 0); Sleep(2); // D
+						keybd_event(0x4F, 0x45, KEYEVENTF_EXTENDEDKEY | 0, 0); Sleep(2); // O
+						keybd_event(0x55, 0x45, KEYEVENTF_EXTENDEDKEY | 0, 0); Sleep(2); // U
+						keybd_event(0x54, 0x45, KEYEVENTF_EXTENDEDKEY | 0, 0); Sleep(2); // T
 						break;
 					}
 				}

@@ -31,5 +31,5 @@ Last Verified: **2019-05-19**
 - [x] Unlimited Sunflowers
 - [x] Unlimited Coins
 - [x] No Planting Delay
-- [x] Quick Tree Cheat
+- [x] Tree of Wisdom Codes
 - [x] Adjustable Tree Height
