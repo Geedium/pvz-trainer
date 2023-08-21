@@ -1,5 +1,8 @@
-# Plants vs. Zombies: Game of the Year
-## Game Trainer
+<p align="center">
+  <img style="cursor: default;" height="450" src="img/Untitled.png">
+</p>
+
+# Plants vs. Zombies: Game of the Year - Game Trainer
 
 ### Summary
 > Game trainers are programs made to modify memory of a computer game
@@ -23,7 +26,7 @@ SOFTWARE.
 +   0x54
 +   0x120
 ```
-Last Verified: **2019-05-19**
+Last Verified: **2023-08-22**
 
 <img style="cursor: default;" align="right" width="100" height="100" src="img/logo.png">
 
